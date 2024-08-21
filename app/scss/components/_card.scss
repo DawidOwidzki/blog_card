@@ -1,0 +1,38 @@
+@use "../globals/" as *;
+.card{
+  max-width: 384px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:$white;
+  border: 1px;
+  border-style: solid;
+  border-radius: 20px;
+  box-shadow: 8px 5px;
+  &__image{
+    
+    width: 100%;
+    padding: 20px 22px 0;
+    &_pic{
+      border-radius:10px;
+      overflow: hidden;
+    }
+
+  }
+  &__wrapper{
+    max-width: 384px;
+    padding: 0 22px 22px;
+    &_tag{
+      display: inline-block;
+      background-color: $yellow;
+      padding: 4px 12px;
+      border-radius: 4px;
+      @include text-preset-4();
+    }
+    &_date{
+      padding-top: 12px;
+      @include text-preset-3();
+    }
+  }
+}
+

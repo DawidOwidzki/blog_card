@@ -1,0 +1,20 @@
+@use "variables" as *;
+@mixin text-preset-1(){
+  font-size: 24px;
+  font-weight:800;
+}
+@mixin text-preset-2(){
+  font-size: 16px;
+  color: $gray-500;
+  font-weight: 500;
+
+}
+@mixin text-preset-3(){
+  font-size: 14px;
+  font-weight: 500;
+}
+@mixin text-preset-4(){
+  font-size: 14px;
+  font-weight: 900;
+
+}

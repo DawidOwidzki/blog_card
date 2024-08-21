@@ -1,0 +1,17 @@
+@use 'variables' as *;
+h1,
+h2,
+h3,
+p{
+  line-height: 150%;
+  letter-spacing: 0;
+  margin-top: 0;
+}
+a,
+a:visited,
+a:active{
+  text-decoration: none;
+}
+body{
+  font-family: $font;
+}
