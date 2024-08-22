@@ -1,20 +1,22 @@
 @use "variables" as *;
 @mixin text-preset-1(){
-  font-size: 24px;
-  font-weight:800;
+  font-size: 16px;
+  font-weight:900;
+  letter-spacing: 2px;
+  
 }
 @mixin text-preset-2(){
   font-size: 16px;
   color: $gray-500;
   font-weight: 500;
-
+  line-height: 1.5;
 }
 @mixin text-preset-3(){
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
 }
 @mixin text-preset-4(){
   font-size: 14px;
   font-weight: 900;
-
+  
 }

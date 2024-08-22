@@ -12,7 +12,7 @@
   &__image{
     
     width: 100%;
-    padding: 20px 22px 0;
+    padding: 20px 23px 0;
     &_pic{
       border-radius:10px;
       overflow: hidden;
@@ -21,7 +21,7 @@
   }
   &__wrapper{
     max-width: 384px;
-    padding: 0 22px 22px;
+    padding: 20px 23px 25px;
     &_tag{
       display: inline-block;
       background-color: $yellow;
@@ -32,6 +32,35 @@
     &_date{
       padding-top: 12px;
       @include text-preset-3();
+    }
+    &_header{
+      padding-top: 12px;
+      @include text-preset-1();
+      a{
+        color: black;
+      }
+      :hover,:active{
+        color: $yellow;
+      }
+    }
+    &_text{
+      padding-top: 12px;
+      @include text-preset-2();
+    }
+    &_publisher{
+      display:flex;
+      padding-top: 12px;
+      &_avatar{
+        
+        img{
+          width: 32px;
+        }
+      }
+      &_name{
+        @include text-preset-4;
+        align-self: center;
+        padding-left: 12px;
+      }
     }
   }
 }
